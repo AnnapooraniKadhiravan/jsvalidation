@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>Contact</h2>
+                <p>Drop us a line and we'll get back with you shortly</p>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <lable for="username" name="username"></lable>
+                    <input id="txtUserName" type="text" name="username" placeholder="Your Name" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="orgname" name="orgname"></lable>
+                    <input id="txtOrgName" type="text" name="orgname" placeholder="Your Organization Name" required/>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="phno" name="phno"></lable>
+                    <input id="txtPhone" type="number" name="phno" placeholder="Phone Number" required />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="email" name="email"></lable>
+                    <input id="txtEmail" type="email" name="email" placeholder="you@example.com" />
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="sub" name="sub"></lable>
+                    <input id="txtSub" type="text" name="sub" placeholder="Subject" required/>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <lable for="message" name="message"></lable>
+                    <textarea id="txtMessage" type="text" name="message" placeholder="Enter your message here" rows="4" cols="43" required ></textarea>
+                    <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="validate.js"></script>
+    </body>
+</html>
